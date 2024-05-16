@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <h1>Bem vindo ao sistema Opera Blue</h1>
+    <h1>Bem vindo ao Sistema PHP</h1>
     <div class="box">
         <a href="login.php">Login</a>
         <a href="formulario.php">Cadastre-se</a>

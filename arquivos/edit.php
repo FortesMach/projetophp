@@ -46,7 +46,8 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image: linear-gradient(to right, #77aaff, #5588ff);
+            margin: auto;
         }
         .box{
             position: absolute;
@@ -106,7 +107,7 @@
         }
 
         #update{
-            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            background-image: linear-gradient(to right, #77aaff, #5588ff);
             width: 100%;
             border: none;
             padding: 15px;
@@ -117,12 +118,36 @@
         }
 
         #update:hover{
-            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            background-image: linear-gradient(to right, #5588ff, #3366ff);
+        }
+
+        .btn-danger{
+            background-color: #dc3545;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            width: 40px;
+            margin: 10px 0 10px 10px;
+        }
+
+        .btn-danger:hover{
+            background-color: #bb2d3b;
+        }
+
+        .nav{
+            display: flex;
+            position: relative;
+            background-image: linear-gradient(to right, #5588ff, #3366ff);
         }
     </style>
 </head>
 <body>
-    <a href="sistema.php">Voltar</a>
+    <div class="nav">
+        <a href="formulario.php" class="btn-danger">Voltar</a>
+    </div>
     <div class="box">
         <form action="saveEdit.php" method="POST">
             <fieldset>
