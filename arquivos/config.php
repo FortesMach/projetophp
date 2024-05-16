@@ -3,7 +3,7 @@
     $dbHost = 'monorail.proxy.rlwy.net';
     $dbUserName = 'root';
     $dbPassword = 'tbAGHQWiaBilWkkisuhJPfhbJacvKsRz';
-    $dbPort = 20015;
+    $dbPort = '20015';
     $dbName = 'railway';
 
     $conexao = new mysqli($dbHost, $dbUserName, $dbPassword, $dbPort, $dbName);
