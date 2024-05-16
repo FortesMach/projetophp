@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
+    <title>Sistema PHP</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,7 @@
 </head>
 <body>
     <div class="nav">
-        <a href="home.php" class="btn-danger">Voltar</a>
+        <a href="index.php" class="btn-danger">Voltar</a>
     </div>
     <div class="tela-login">
         <h1>Login</h1>
