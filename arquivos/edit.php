@@ -61,13 +61,13 @@
             color: white;
         }
         fieldset{
-            border: 3px solid dodgerblue;
+            border: 3px solid #77aaff;
         }
         legend{
-            border: 1px solid dodgerblue;
+            border: 1px solid #77aaff;
             padding: 10px;
             text-align: center;
-            background-color: dodgerblue;
+            background-color: #77aaff;
             border-radius: 8px;
         }
         .inputBox{
@@ -146,7 +146,7 @@
 </head>
 <body>
     <div class="nav">
-        <a href="formulario.php" class="btn-danger">Voltar</a>
+        <a href="sistema.php" class="btn-danger">Voltar</a>
     </div>
     <div class="box">
         <form action="saveEdit.php" method="POST">
