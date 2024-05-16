@@ -1,11 +1,12 @@
 <?php
 
-    $dbHost = 'Localhost';
+    $dbHost = 'monorail.proxy.rlwy.net';
     $dbUserName = 'root';
-    $dbPassword = '1234';
-    $dbName = 'formulario-victor';
+    $dbPassword = 'tbAGHQWiaBilWkkisuhJPfhbJacvKsRz';
+    $dbPort = 20015;
+    $dbName = 'railway';
 
-    $conexao = new mysqli($dbHost, $dbUserName, $dbPassword, $dbName);
+    $conexao = new mysqli($dbHost, $dbUserName, $dbPassword, $dbPort, $dbName);
 
     // if ($conexao->connect_error) 
     //{
